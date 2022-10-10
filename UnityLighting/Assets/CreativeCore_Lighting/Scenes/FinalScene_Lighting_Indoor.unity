@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.000018771047, g: 0.000000035443005, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.1806761, g: 0.22618265, b: 0.30713344, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1748,7 +1748,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.9528302, g: 0.9249644, b: 0.81350124, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.6
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1760,7 +1760,7 @@ Light:
     m_Strength: 1
     m_Bias: 0
     m_NormalBias: 0
-    m_NearPlane: 0.1
+    m_NearPlane: 2.15
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -1785,15 +1785,15 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 0, z: 0, w: 0.0012773788}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1805,14 +1805,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424567948}
-  m_LocalRotation: {x: -0.539161, y: -0.78767544, z: -0.210931, w: 0.21066795}
-  m_LocalPosition: {x: -0.49, y: 12.73, z: -0.04}
+  m_LocalRotation: {x: 0.2702898, y: -0.32948923, z: 0.81582314, w: 0.39091304}
+  m_LocalPosition: {x: 0.3, y: 13.19, z: 0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -34.018, y: 187.238, z: -293.434}
+  m_LocalEulerAnglesHint: {x: 48.498, y: 376.069, z: -223.928}
 --- !u!114 &1424567951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2971,9 +2971,17 @@ PrefabInstance:
       value: Apple
       objectReference: {fileID: 0}
     - target: {fileID: 5419133942570123641, guid: 0bcf544bb242b204bbb59fca4aab702f, type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419133942570123641, guid: 0bcf544bb242b204bbb59fca4aab702f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c93cd8bc4a4f4934295539c10bd4c3fa, type: 2}
+    - target: {fileID: 7114384626830886627, guid: 0bcf544bb242b204bbb59fca4aab702f, type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bcf544bb242b204bbb59fca4aab702f, type: 3}
 --- !u!1 &6889588847605843817 stripped
